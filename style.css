@@ -1,0 +1,37 @@
+@charset "UTF-8"; 
+
+
+div#box{
+			width: cover;
+			margin-left: -5px;
+			margin-right: -5px;
+			text-align: center;
+			font-weight: bold;
+}
+
+@media screen and (max-width: 510px){ /*============= Until 510 Pixels ===(MOBILE)===================*/
+	div#box{	
+			background-color: blue;
+			}
+}
+
+@media screen and (min-width: 511px) and (max-width: 660px){ /*======= Until 900 px ==============*/
+	
+	div#box{	
+			background-color: yellow;
+			}
+}
+
+@media screen and (min-width: 661px) and (max-width: 900px){ /*======= Until 900 px ==============*/
+	
+	div#box{	
+			background-color: green;
+			}
+}
+
+@media screen and (min-width: 901px) { /*================== From 900px ============== */
+
+	div#box{	
+			background-color: red;
+			}
+}
